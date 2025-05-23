@@ -4,7 +4,7 @@ Este projeto tem como objetivo automatizar a análise de faturamento anual das e
 
 ## ✨ Funcionalidades
 
-- 📥 Leitura automática de 12 planilhas mensais (`planilha_jan.xlsx`, `planilha_fev.xlsx`, ..., `planilha_dez.xlsx`)
+- 📥 Leitura automática de 12 planilhas mensais (`planilha_jan.xlsx`, `planilha_fev.xlsx`, `planilha_dez.xlsx`)
 - 📊 Consolidação do faturamento mensal e anual de cada cliente
 - 📈 Cálculo de:
   - Faturamento total anual por cliente
@@ -22,15 +22,16 @@ Este projeto tem como objetivo automatizar a análise de faturamento anual das e
 
 ## 🛠 Tecnologias utilizadas
 
-- [Python 3.x](https://www.python.org/)
+- [Python 3](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/) – manipulação de dados
 - [OpenPyXL](https://openpyxl.readthedocs.io/) – leitura, escrita e formatação de arquivos Excel
 
 ## 📁 Estrutura de entrada
 
 O script espera encontrar 12 arquivos `.xlsx` no mesmo diretório, com os seguintes nomes:
-planilha_jan.xlsx
-planilha_fev.xlsx e assim, por diante.
+planilha_jan.xlsx,
+planilha_fev.xlsx, 
+e assim, por diante.
 
 cada planilha deve conter ao menos duas colunas:
 
